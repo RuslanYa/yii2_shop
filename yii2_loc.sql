@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 26, 2019 at 09:54 AM
+-- Generation Time: Oct 03, 2019 at 12:56 PM
 -- Server version: 5.7.26-0ubuntu0.18.04.1-log
 -- PHP Version: 7.3.6-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -164,7 +164,8 @@ INSERT INTO `order` (`id`, `created_at`, `updated_at`, `qty`, `sum`, `status`, `
 (15, '2019-09-21 12:22:06', '2019-09-21 12:22:06', 1, 20, '0', 'dfsdfs', 'sss@gmail.com', '342423423', 'dsvdsvdcv'),
 (16, '2019-09-21 12:24:48', '2019-09-21 12:24:48', 1, 20, '0', 'dfsdfs', 'sss@gmail.com', '342423423', 'dsvdsvdcv'),
 (17, '2019-09-21 21:34:29', '2019-09-21 21:34:29', 2, 120, '0', 'dfsdfs', 'sss@gmail.com', '342423423', 'dsvdsvdcv'),
-(18, '2019-09-22 22:38:05', '2019-09-22 22:38:05', 3, 76, '1', 'Руслан', 'sss@gmail.com', '89214835160', 'Москва');
+(18, '2019-09-22 22:38:05', '2019-09-22 22:38:05', 3, 76, '1', 'Руслан', 'sss@gmail.com', '89214835160', 'Москва'),
+(19, '2019-10-03 11:55:08', '2019-10-03 11:55:08', 1, 20, '0', 'dfsdfs', 'sss@gmail.com', '342423423', 'dsvdsvdcv');
 
 -- --------------------------------------------------------
 
@@ -193,7 +194,8 @@ INSERT INTO `order_items` (`id`, `order_id`, `product_id`, `name`, `price`, `qty
 (4, 17, 6, 'Кардиган Levi\'s Icy Grey Heather M', 100, 1, 100),
 (5, 18, 2, 'Джинсы MR520 MR 227 20002 0115 29-34 р Синие', 56, 1, 56),
 (6, 18, 3, 'Блуза Mango 53005681-05 M Бежевая', 20, 1, 20),
-(7, 18, 5, 'Блузка Kira Plastinina 17-16-17453-SM-29 S', 0, 1, 0);
+(7, 18, 5, 'Блузка Kira Plastinina 17-16-17453-SM-29 S', 0, 1, 0),
+(8, 19, 3, 'Блуза Mango 53005681-05 M Бежевая', 20, 1, 20);
 
 -- --------------------------------------------------------
 
@@ -321,13 +323,13 @@ ALTER TABLE `image`
 -- AUTO_INCREMENT for table `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `product`
