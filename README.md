@@ -1,9 +1,8 @@
-<a href="http://portfolio2.itlifemsk.ru/">
-        <p align="center">
+
 
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-        </p>
- </a>
+      
+
   
 <p>Пример работы по реализации интернет-магазина из готовой верстки с применением фреймворка yii2.</p>
      <br>
